@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_btn_effect_panel.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_btn_effect_rect_line.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_btn_effect_rect_pressed_black.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_btn_effect_round.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_draw_white_backgroud.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_seekbar_bg.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_shape_circle_normal.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_shape_circle_pressed.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_shape_rect_pressed_black.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_shape_rect_stroke_normal.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_shape_rect_stroke_pressed.xml" value="0.456" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/doodle_thumb_seekbarr.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3825" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/activity_main.xml" value="0.5213541666666667" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_color_selector_dialog.xml" value="0.33" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_create_bitmap.xml" value="0.5213541666666667" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_create_text.xml" value="0.5213541666666667" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_dialog.xml" value="0.5213541666666667" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_imageselector_item.xml" value="0.13125" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_layout.xml" value="0.5" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_layout_image_selector.xml" value="0.5213541666666667" />
+        <entry key="..\:/AndroidTempLearn/YJGDoodle/app/src/main/res/layout/doodle_title_bar.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
