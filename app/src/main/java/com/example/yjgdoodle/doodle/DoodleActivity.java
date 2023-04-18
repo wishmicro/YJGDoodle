@@ -175,7 +175,23 @@ public class DoodleActivity extends Activity {
         if (mImagePath == null) {
             LogUtil.e("TAG", "mImagePath is null!");
             //白板
-            bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.doodle_draw_background);
+                        DisplayMetrics dm = getResources().getDisplayMetrics();
+            int newWidth = dm.widthPixels;
+            int newHeight = dm.heightPixels;
+
+            View view = getLayoutInflater().inflate(R.layout.doodle_draw_back_ground, null);
+
+            //打开图像缓存
+            view.setDrawingCacheEnabled(true);
+            //必须调用measure和layout方法才能成功保存可视组件的截图到png图像文件
+            //测量View大小(这样能保证测量的和实际显示的大小一致，720/1280为屏幕大小， MeasureSpec.AT_MOST/EXACTLY允许view的最大大小/精确大小)
+            view.measure(View.MeasureSpec.makeMeasureSpec(newWidth, View.MeasureSpec.EXACTLY),  View.MeasureSpec.makeMeasureSpec(newHeight, View.MeasureSpec.EXACTLY));
+            //不能全屏（和真实显示大小不一致）
+            //view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+            //         View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+            view.layout(0, 0, view.getMeasuredWidth(), view.getMeasuredHeight());
+
+            bitmap =  view.getDrawingCache();
 
         }else{
             bitmap =  ImageUtils.createBitmapFromPath(mImagePath, this);
